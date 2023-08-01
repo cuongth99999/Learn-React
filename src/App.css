@@ -78,3 +78,17 @@ img {
   color: #999;
   font-weight: 300;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.load-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
